@@ -1,14 +1,6 @@
 {
   "currentlyreading": [
     {
-      "id": 6,
-      "src": "6.png",
-      "name": "Loving Your Business",
-      "author": "DebbieKing",
-      "duration": "5-minute read",
-      "noOfReads": "8k reads"
-    },
-    {
       "id": 2,
       "src": "11.png",
       "name": "Employee to Entrepreneur",
@@ -63,6 +55,14 @@
       "author": "JimCollins",
       "duration": "15-minute read",
       "noOfReads": "1.9k reads"
+    },
+    {
+      "id": 8,
+      "src": "8.png",
+      "name": "Eat Better, Feel Better",
+      "author": "GiadaDeLaurentiis",
+      "duration": "7-minute read",
+      "noOfReads": "3k reads"
     }
   ],
   "finishedreading": [
@@ -73,14 +73,6 @@
       "author": "DebbieKing",
       "duration": "5-minute read",
       "noOfReads": "8k reads"
-    },
-    {
-      "id": 8,
-      "src": "8.png",
-      "name": "Eat Better, Feel Better",
-      "author": "GiadaDeLaurentiis",
-      "duration": "7-minute read",
-      "noOfReads": "3k reads"
     }
   ],
   "trending": [

@@ -31,27 +31,27 @@ const BooksGrid: React.FunctionComponent<BooksGridProps> = ({ searchTerm }) => {
     <>
       <Grid container className={classes.grid}>
         <Grid container columnSpacing="20px" rowSpacing="40px">
-          {CurrentlyReading.filter((book: { name: string }) =>
-            book.name.toLowerCase().includes(searchTerm.toLowerCase())
+          {CurrentlyReading.filter((currentbook: { name: string }) =>
+            currentbook.name.toLowerCase().includes(searchTerm.toLowerCase())
           ).map(
-            (book: {
+            (currentbook: {
               id: number;
-              src: string;
-              name: string;
               author: string;
               duration: string;
+              src: string;
+              name: string;
               noOfReads: string;
             }) => (
-              <Grid key={book.id} item xs={12} sm={6} md={4}>
+              <Grid key={currentbook.id} item xs={12} sm={6} md={4}>
                 <BookCard
-                  key={book.id}
-                  image={book.src}
-                  bookName={book.name}
-                  author={book.author}
-                  readTime={book.duration}
-                  reads={book.noOfReads}
+                  key={currentbook.id}
+                  author={currentbook.author}
+                  readTime={currentbook.duration}
+                  image={currentbook.src}
+                  bookName={currentbook.name}
+                  reads={currentbook.noOfReads}
                   buttonName="Finished"
-                  id={book.id}
+                  id={currentbook.id}
                   incCount={() => setCount(count + 1)}
                 />
               </Grid>
