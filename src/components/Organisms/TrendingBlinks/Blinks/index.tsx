@@ -1,5 +1,5 @@
 import { Grid, InputAdornment, TextField, Typography } from "@mui/material";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { makeStyles } from "@mui/styles";
 
@@ -8,7 +8,6 @@ import BookCard from "../../../molecules/BlinkBookCard/index";
 import { Link } from "react-router-dom";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import axios from "axios";
-import { useEffect } from "react";
 
 const useStyles = makeStyles({
   grid: {
@@ -164,16 +163,18 @@ const Blinks: React.FunctionComponent = () => {
             book.name.toLowerCase().includes(searchTerm.toLowerCase())
           ).map((book: WholeBook) => (
             <Grid key={book.id} item xs={12} sm={6} md={4}>
-              <BookCard
-                key={book.id}
-                image={book.src}
-                bookName={book.name}
-                author={book.author}
-                readTime={book.duration}
-                reads={book.noOfReads}
-                buttonName={"+ Add to Library"}
-                id={0}
-              />
+              {book.id !== 11 && (
+                <BookCard
+                  key={book.id}
+                  image={book.src}
+                  bookName={book.name}
+                  author={book.author}
+                  readTime={book.duration}
+                  reads={book.noOfReads}
+                  buttonName={"+ Add to Library"}
+                  id={0}
+                />
+              )}
             </Grid>
           ))}
         </Grid>

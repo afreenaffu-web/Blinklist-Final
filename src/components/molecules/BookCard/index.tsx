@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Button,
   Card,
@@ -12,7 +11,7 @@ import { makeStyles } from "@mui/styles";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../../Theme/theme";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import time from "../../atoms/Images/time.svg";
 import person from "../../atoms/Images/person.svg";
 
@@ -151,7 +150,7 @@ const BookCard: React.FunctionComponent<BookCardProps> = (props) => {
     });
   }, []);
   const handleClick = (
-    event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+    _event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
     id: number
   ) => {
     if (props.buttonName === "Finished") {
@@ -165,7 +164,6 @@ const BookCard: React.FunctionComponent<BookCardProps> = (props) => {
           noOfReads: string;
         }) => book.id === id
       );
-      /*FinishedReading.push(...currentBook);*/
       axios.post(`http://localhost:3004/finishedreading`, ...currentBook);
       const Book = CurrentlyReading.filter(
         (book: { id: number }) => book.id === id
@@ -186,17 +184,16 @@ const BookCard: React.FunctionComponent<BookCardProps> = (props) => {
           noOfReads: string;
         }) => book.id === props.id
       );
-      /*CurrentlyReading.push(...finishedBook);*/
       axios
         .post(`http://localhost:3004/currentlyreading`, ...finishedBook)
         .then((res) => {
           console.log(res.data);
         });
-      var Book = FinishedReading.filter(
+      var BookId = FinishedReading.filter(
         (book: { id: number }) => book.id === props.id
       );
 
-      const index1 = Book[0]["id"];
+      const index1 = BookId[0]["id"];
       axios
         .delete(`http://localhost:3004/finishedreading/${index1}`)
         .then((res) => {

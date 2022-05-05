@@ -9,12 +9,11 @@ import {
   StyledEngineProvider,
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import React from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { Link } from "react-router-dom";
 
 import axios from "axios";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 
 const theme = createTheme({
@@ -199,7 +198,7 @@ const Synopsis: React.FunctionComponent = () => {
   const [value, setValue] = useState(0);
 
   const handleChange = (
-    event: React.SyntheticEvent<Element, Event>,
+    _event: React.SyntheticEvent<Element, Event>,
     newValue: number
   ) => {
     setValue(newValue);
@@ -268,7 +267,7 @@ const Buttons: React.FunctionComponent = () => {
     });
   }, []);
   const finish: React.MouseEventHandler<HTMLButtonElement> = (
-    e: React.MouseEvent
+    _e: React.MouseEvent
   ) => {
     FinishedReading.filter((book: { id: number }) => book.id === 10).length ===
       0 &&
