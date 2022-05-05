@@ -195,7 +195,6 @@ const Info: React.FunctionComponent = () => {
     </React.Fragment>
   );
 };
-
 const Synopsis: React.FunctionComponent = () => {
   const [value, setValue] = useState(0);
 
@@ -256,6 +255,7 @@ const SendToKindle: React.FunctionComponent = () => {
 const Buttons: React.FunctionComponent = () => {
   const classes = useStyles();
   const [CurrentlyReading, setCurrentlyReading] = useState([]);
+  console.log(CurrentlyReading);
   useEffect(() => {
     axios.get("http://localhost:3004/currentlyreading").then((res) => {
       setCurrentlyReading(res.data);

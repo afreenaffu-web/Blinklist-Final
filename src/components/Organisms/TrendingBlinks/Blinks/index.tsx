@@ -153,7 +153,6 @@ const Blinks: React.FunctionComponent = () => {
           ))}
         </Grid>
       </Grid>
-
       <Grid container className={classes.grid}>
         <Grid item style={{ marginBottom: "25px" }}>
           <Typography className={classes.heading} fontWeight={700}>

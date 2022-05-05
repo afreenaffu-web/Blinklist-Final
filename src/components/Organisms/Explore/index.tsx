@@ -45,7 +45,6 @@ const ExploreCategories: React.FunctionComponent = () => {
           <PopularTitles />{" "}
         </Grid>
       </Grid>
-
       <Grid container sx={{ width: "1464px" }}>
         <Grid item className={classes.box}></Grid>
       </Grid>

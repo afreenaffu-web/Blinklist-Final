@@ -8,6 +8,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import SchoolOutlinedIcon from "@mui/icons-material/SchoolOutlined";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import { makeStyles } from "@mui/styles";
+
 const useStyles = makeStyles({
   title: {
     paddingLeft: "15px",

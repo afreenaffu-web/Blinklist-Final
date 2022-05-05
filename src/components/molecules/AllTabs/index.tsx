@@ -35,7 +35,6 @@ const useStyles = makeStyles({
 interface Props {
   searchTerm: string;
 }
-
 const AllTabs: React.FunctionComponent<Props> = (props) => {
   const [value, setValue] = useState(0);
 

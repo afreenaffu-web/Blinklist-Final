@@ -8,6 +8,7 @@ import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import SpaOutlinedIcon from "@mui/icons-material/SpaOutlined";
 import PublicOutlinedIcon from "@mui/icons-material/PublicOutlined";
 import { makeStyles } from "@mui/styles";
+
 const useStyles = makeStyles({
   grid: {
     paddingLeft: "250px",

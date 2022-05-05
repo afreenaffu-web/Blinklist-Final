@@ -9,7 +9,6 @@ const useStyles = makeStyles({
     paddingLeft: "220px",
     borderRadius: "0px",
     flexDirection: "column",
-
     backgroundColor: "#F1F6F4",
   },
   bigideas: {

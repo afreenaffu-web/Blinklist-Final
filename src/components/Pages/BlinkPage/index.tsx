@@ -11,7 +11,6 @@ const ExplorePage: React.FunctionComponent = () => {
       <div id="appbar">
         <Header />
       </div>
-
       <div id="explorebooks" style={{ marginTop: "72px", marginLeft: "264px" }}>
         <ExploreBooks />
       </div>

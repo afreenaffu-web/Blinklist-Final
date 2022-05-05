@@ -4,7 +4,6 @@ import { makeStyles } from "@mui/styles";
 import BookCard from "../../../molecules/BookCard";
 import axios from "axios";
 import { useEffect, useState } from "react";
-
 const useStyles = makeStyles({
   grid: {
     paddingLeft: "264px",

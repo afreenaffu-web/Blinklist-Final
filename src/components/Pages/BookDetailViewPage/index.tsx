@@ -3,7 +3,6 @@ import { makeStyles } from "@mui/styles";
 import Header from "../../Organisms/Headers/currentBookHeader";
 import BeyondEntrepreneurship from "../../Organisms/BeyondEntrepreneurship";
 import Footer from "../../Organisms/Footer/currentBookFooter";
-
 const useStyles = makeStyles({
   keyideas: {
     position: "absolute",

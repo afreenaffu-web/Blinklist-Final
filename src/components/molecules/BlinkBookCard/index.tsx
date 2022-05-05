@@ -10,7 +10,6 @@ import {
 import { makeStyles } from "@mui/styles";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../../Theme/theme";
-
 import time from "../../atoms/Images/time.svg";
 import person from "../../atoms/Images/person.svg";
 

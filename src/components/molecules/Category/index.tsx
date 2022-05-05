@@ -6,7 +6,6 @@ interface Props {
   icon: any;
   sx?: any;
 }
-
 const useStyles = makeStyles({
   name: {
     fontFamily: "Raleway",
