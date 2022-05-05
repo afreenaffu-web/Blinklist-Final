@@ -104,14 +104,14 @@ const BookCard: React.FunctionComponent<BookCardProps> = (props) => {
               {props.bookName}
             </Typography>
             <Typography className={classes.author}>{props.author}</Typography>
-            <div style={{ display: "flex" }}>
+            <div className={classes.readTimeDiv}>
               <div>
                 <img src={time} className={classes.time} alt="clock" />
                 <Typography variant="caption" className={classes.read}>
                   {props.readTime}
                 </Typography>
               </div>
-              <div style={{ paddingTop: "20px" }}>
+              <div className={classes.readDiv}>
                 <img src={person} className={classes.person} alt="person" />
                 <Typography variant="caption" className={classes.reads}>
                   {props.reads}

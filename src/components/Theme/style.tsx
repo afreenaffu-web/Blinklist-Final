@@ -106,5 +106,11 @@ const useStyles = makeStyles({
     height: "20px",
     color: "#0365F2",
   },
+  readDiv: {
+    paddingTop: "20px",
+  },
+  readTimeDiv: {
+    display: "flex",
+  },
 });
 export default useStyles;
