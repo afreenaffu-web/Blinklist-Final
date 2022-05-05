@@ -85,7 +85,6 @@ const useStyles = makeStyles({
     borderRadius: "0px",
     paddingLeft: "47.33px",
   },
-
   content: {
     padding: 12,
   },

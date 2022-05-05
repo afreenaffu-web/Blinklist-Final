@@ -13,7 +13,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import time from "../../atoms/Images/time.svg";
 import person from "../../atoms/Images/person.svg";
-import useStyles from "../../Theme/style";
+import useStyles from "../../Theme/useStyles";
 
 interface BookCardProps {
   bookName: string;
