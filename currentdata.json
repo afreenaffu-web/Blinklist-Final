@@ -33,14 +33,6 @@
       "noOfReads": "1k reads"
     },
     {
-      "id": 8,
-      "src": "8.png",
-      "name": "Eat Better, Feel Better",
-      "author": "GiadaDeLaurentiis",
-      "duration": "7-minute read",
-      "noOfReads": "3k reads"
-    },
-    {
       "id": 3,
       "src": "3.png",
       "name": "Doesn’t Hurt to Ask",
@@ -57,20 +49,28 @@
       "noOfReads": "1.9k reads"
     },
     {
-      "id": 10,
-      "src": "2.png",
-      "name": "Beyond Entrepreneurship",
-      "author": "JimCollins",
-      "duration": "15-minute read",
-      "noOfReads": "1.9k reads"
-    },
-    {
       "id": 4,
       "src": "4.png",
       "name": "The Fate of Food",
       "author": "AmandaLittle",
       "duration": "18-minute read",
       "noOfReads": "16k reads"
+    },
+    {
+      "id": 8,
+      "src": "8.png",
+      "name": "Eat Better, Feel Better",
+      "author": "GiadaDeLaurentiis",
+      "duration": "7-minute read",
+      "noOfReads": "3k reads"
+    },
+    {
+      "id": 10,
+      "src": "2.png",
+      "name": "Beyond Entrepreneurship",
+      "author": "JimCollins",
+      "duration": "15-minute read",
+      "noOfReads": "1.9k reads"
     }
   ],
   "finishedreading": [

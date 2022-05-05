@@ -99,7 +99,7 @@ const Header = () => {
   const classes = useStyles();
   const [value, setvalue] = useState(0);
   const handleChange = (
-    e:
+    _e:
       | React.MouseEvent<SVGSVGElement, MouseEvent>
       | React.MouseEvent<HTMLSpanElement>
   ) => {

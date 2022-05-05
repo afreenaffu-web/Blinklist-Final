@@ -40,7 +40,7 @@ const AllTabs: React.FunctionComponent<Props> = (props) => {
   const [value, setValue] = useState(0);
 
   const handleChange = (
-    event: React.SyntheticEvent<Element, Event>,
+    _event: React.SyntheticEvent<Element, Event>,
     newValue: number
   ) => {
     setValue(newValue);
