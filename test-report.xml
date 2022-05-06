@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/afreenm/Blinklist-axios/src/components/molecules/BlinkBookCard/__tests__/index.test.tsx">
+    <testCase name="button name should be &quot;add to library&quot;" duration="323"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/Organisms/Footer/currentBookFooter/__tests__/index.test.tsx">
+    <testCase name="Footer should render blinklist logo" duration="352"/>
+    <testCase name="Footer should have explore" duration="106"/>
+    <testCase name="Footer should have  Editorial" duration="95"/>
+    <testCase name="Footer should have UsefulLinks" duration="104"/>
+    <testCase name="Footer should have Partners" duration="111"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/Organisms/ExploreByCategory/__tests__/index.test.tsx">
+    <testCase name="Explore by categories should be rendered" duration="588"/>
+    <testCase name="Recently added titles should be rendered" duration="176"/>
+    <testCase name="Popular titles should be rendered" duration="141"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/molecules/BookCard/__tests__/index.test.tsx">
+    <testCase name="book name should match with &quot;Bring Your Human to Work&quot;" duration="405"/>
+    <testCase name="author name should match with &quot;Erica Keswin&quot;" duration="108"/>
+    <testCase name="Read time should be 13-minute read" duration="70"/>
+    <testCase name="Reads should be 1.9k reads" duration="81"/>
+    <testCase name="button name should be &quot;Finished&quot;" duration="94"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/Organisms/Explore/__tests__/index.test.tsx">
+    <testCase name="Explore by categories should be rendered" duration="828"/>
+    <testCase name="Recently added titles should be rendered" duration="406"/>
+    <testCase name="Popular titles should be rendered" duration="310"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/Organisms/BeyondEntrepreneurship/__tests__/index.test.tsx">
+    <testCase name="Key ideas are displayed" duration="849"/>
+    <testCase name="Finished Reading button is being displayed" duration="562"/>
+    <testCase name="Synopsis tab is being displayed" duration="145"/>
+    <testCase name="Beyond Entrepreneurship image should be displayed" duration="122"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/Organisms/Headers/currentBookHeader/__tests__/index.test.tsx">
+    <testCase name="app bar should render blinklist logo" duration="915"/>
+    <testCase name="app bar should have explore" duration="62"/>
+    <testCase name="app bar should have My library" duration="65"/>
+    <testCase name="app bar should have Avatar A" duration="45"/>
+    <testCase name="when clicked on search, explore should disappear" duration="725"/>
+    <testCase name="Search bar is displayed when clicked on search icon button" duration="427"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/Organisms/ExploreBooks/__tests__/index.test.tsx">
+    <testCase name="THe girl image should be rendered" duration="154"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/atoms/MyLibrary/__tests__/index.test.tsx">
+    <testCase name="renders my library" duration="74"/>
+  </file>
+  <file path="/home/afreenm/Blinklist-axios/src/components/molecules/Category/__tests__/index.test.tsx">
+    <testCase name="Category name should match" duration="166"/>
+  </file>
+</testExecutions>
