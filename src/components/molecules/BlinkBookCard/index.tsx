@@ -52,7 +52,7 @@ const BlinkBookCard: React.FunctionComponent<BookCardProps> = (props) => {
               </div>
             </div>
           </CardContent>
-          <Button variant="text" className={classes.addButton}>
+          <Button variant="text" className={classes.addbutton}>
             {props.buttonName}
           </Button>
         </Card>

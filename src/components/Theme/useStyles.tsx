@@ -1,4 +1,5 @@
 import { makeStyles } from "@mui/styles";
+import { transform } from "typescript";
 const useStyles = makeStyles({
   bookName: {
     color: "#03314B",
@@ -107,6 +108,17 @@ const useStyles = makeStyles({
   },
   readDiv: {
     paddingTop: "20px",
+  },
+  addbutton: {
+    width: "284px",
+    height: "52px",
+    color: "#0365F2",
+    border: "1px solid #E1ECFC",
+    textTransform: "none",
+    "&:hover": {
+      background: "#0365F2",
+      color: "#FFFFFF",
+    },
   },
   readTimeDiv: {
     display: "flex",
