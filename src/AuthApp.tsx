@@ -1,6 +1,6 @@
-import Login from "./components/Auth0/Login";
-import Logout from "./components/Auth0/Logout";
-import Profile from "./components/Auth0/Profile";
+import Login from "./components/atoms/Auth0/Login";
+import Logout from "./components/atoms/Auth0/Logout";
+import Profile from "./components/atoms/Auth0/Profile";
 
 export const AuthApp = () => {
   return (
