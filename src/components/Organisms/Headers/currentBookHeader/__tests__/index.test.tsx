@@ -1,7 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import Header from "../index";
-import React from "react";
 import "@testing-library/jest-dom";
 
 test("app bar should render blinklist logo", () => {
