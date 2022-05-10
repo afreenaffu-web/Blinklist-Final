@@ -62,7 +62,9 @@ const BookCard: React.FunctionComponent<BookCardProps> = (props) => {
 
       const index = Book[0]["id"];
       axios.delete(`http://localhost:3004/currentlyreading/${index}`);
+      console.log(window.location);
       window.location.reload();
+
       props.incCount();
     } else {
       const finishedBook = FinishedReading.filter(

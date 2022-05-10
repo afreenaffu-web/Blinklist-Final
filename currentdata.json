@@ -1,46 +1,6 @@
 {
   "currentlyreading": [
     {
-      "id": 2,
-      "src": "11.png",
-      "name": "Employee to Entrepreneur",
-      "author": "SteveGlaveski",
-      "duration": "15-minute read",
-      "noOfReads": "2k reads"
-    },
-    {
-      "id": 1,
-      "src": "1.png",
-      "name": "Bring Your Human to Work",
-      "author": "Erica Keswin",
-      "duration": "13-minute read",
-      "noOfReads": "1.9k reads"
-    },
-    {
-      "id": 5,
-      "src": "5.png",
-      "name": "Lives of the Stoics",
-      "author": "RyanHoliday",
-      "duration": "23-minute read",
-      "noOfReads": "1k reads"
-    },
-    {
-      "id": 3,
-      "src": "3.png",
-      "name": "Doesn’t Hurt to Ask",
-      "author": "TreyGowdy",
-      "duration": "13-minute read",
-      "noOfReads": "1.2k reads"
-    },
-    {
-      "id": 7,
-      "src": "7.png",
-      "name": "The Lonely Century",
-      "author": "NoreenaHertz",
-      "duration": "15-minute read",
-      "noOfReads": "1.9k reads"
-    },
-    {
       "id": 4,
       "src": "4.png",
       "name": "The Fate of Food",
@@ -57,12 +17,36 @@
       "noOfReads": "3k reads"
     },
     {
-      "id": 10,
-      "src": "2.png",
-      "name": "Beyond Entrepreneurship",
-      "author": "JimCollins",
+      "id": 1,
+      "src": "1.png",
+      "name": "Bring Your Human to Work",
+      "author": "Erica Keswin",
+      "duration": "13-minute read",
+      "noOfReads": "1.9k reads"
+    },
+    {
+      "id": 2,
+      "src": "11.png",
+      "name": "Employee to Entrepreneur",
+      "author": "SteveGlaveski",
+      "duration": "15-minute read",
+      "noOfReads": "2k reads"
+    },
+    {
+      "id": 7,
+      "src": "7.png",
+      "name": "The Lonely Century",
+      "author": "NoreenaHertz",
       "duration": "15-minute read",
       "noOfReads": "1.9k reads"
+    },
+    {
+      "id": 5,
+      "src": "5.png",
+      "name": "Lives of the Stoics",
+      "author": "RyanHoliday",
+      "duration": "23-minute read",
+      "noOfReads": "1k reads"
     }
   ],
   "finishedreading": [
@@ -73,6 +57,14 @@
       "author": "DebbieKing",
       "duration": "5-minute read",
       "noOfReads": "8k reads"
+    },
+    {
+      "id": 3,
+      "src": "3.png",
+      "name": "Doesn’t Hurt to Ask",
+      "author": "TreyGowdy",
+      "duration": "13-minute read",
+      "noOfReads": "1.2k reads"
     }
   ],
   "trending": [

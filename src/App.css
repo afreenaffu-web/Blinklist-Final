@@ -5,7 +5,10 @@
   
   
 }
-
+#search::placeholder{
+  font-weight: bold;
+  font-family:"Cera pro"
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

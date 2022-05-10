@@ -141,14 +141,13 @@ const useStyles = makeStyles({
     width: "600px",
     height: "100px",
     left: "264px",
-    top: "624px",
     fontFamily: "Cera Pro",
     fontStyle: "normal",
     fontWeight: "normal",
     fontSize: "16px",
     lineHeight: "20px",
     color: "#03314B",
-    marginTop: "20px",
+    marginTop: "30px",
   },
   timeicon: {
     height: "20px",
@@ -283,30 +282,66 @@ const Buttons: React.FunctionComponent = () => {
       console.log(res.data);
     });
   };
+  const current: React.MouseEventHandler<HTMLButtonElement> = (
+    _e: React.MouseEvent
+  ) => {
+    CurrentlyReading.filter((book: { id: number }) => book.id === 10).length ===
+      0 &&
+      axios.post("http://localhost:3004/currentlyreading", {
+        id: 10,
+        src: "2.png",
+        name: "Beyond Entrepreneurship",
+        author: "JimCollins",
+        duration: "15-minute read",
+        noOfReads: "1.9k reads",
+      });
+    axios.delete(`http://localhost:3004/finishedreading/10`).then((res) => {
+      console.log(res.data);
+    });
+  };
   return (
     <>
       <ThemeProvider theme={theme}>
         <Grid container columnSpacing="15px">
-          <Grid item>
-            <Button variant="outlined" style={{ textTransform: "initial" }}>
-              <Typography className={classes.readnow}>Read now</Typography>
-            </Button>
-          </Grid>
-
+          {CurrentlyReading.filter((book: { id: number }) => book.id === 10)
+            .length === 0 ? (
+            <Grid item>
+              <Link to="/home" style={{ textDecoration: "none" }}>
+                <Button
+                  variant="outlined"
+                  style={{ textTransform: "initial" }}
+                  onClick={current}
+                >
+                  <Typography className={classes.readnow}>Read now</Typography>
+                </Button>
+              </Link>
+            </Grid>
+          ) : (
+            <Grid item>
+              <Link to="/home" style={{ textDecoration: "none" }}>
+                <Button
+                  variant="outlined"
+                  disabled
+                  style={{ textTransform: "initial" }}
+                  onClick={current}
+                >
+                  <Typography className={classes.readnow}>Read now</Typography>
+                </Button>
+              </Link>
+            </Grid>
+          )}
           {FinishedReading.filter((book: { id: number }) => book.id === 10)
             .length === 0 && (
             <Grid item>
-              <Link to="/" style={{ textDecoration: "none" }}>
-                <Button
-                  variant="contained"
-                  style={{ textTransform: "initial" }}
-                  onClick={finish}
-                >
-                  <Typography className={classes.finishedreading}>
-                    Finished Reading
-                  </Typography>
-                </Button>
-              </Link>
+              <Button
+                variant="contained"
+                style={{ textTransform: "initial" }}
+                onClick={finish}
+              >
+                <Typography className={classes.finishedreading}>
+                  Finished Reading
+                </Typography>
+              </Button>
             </Grid>
           )}
           <Grid item>
@@ -349,7 +384,7 @@ const BeyondEntrepreneurship: React.FunctionComponent = () => {
 
                   <Grid
                     item
-                    style={{ marginTop: "210px", marginLeft: "264px" }}
+                    style={{ marginTop: "160px", marginLeft: "264px" }}
                   >
                     <ReadTime />
                   </Grid>

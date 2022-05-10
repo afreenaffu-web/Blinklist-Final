@@ -20,7 +20,7 @@ const useStyles = makeStyles({
     fontWeight: "700",
     fontSize: "36px",
     lineHeight: "45px",
-    marginTop: "59px",
+    marginTop: "49px",
     paddingLeft: "264px",
     paddingBottom: "60px",
   },

@@ -69,7 +69,7 @@ const Blinks: React.FunctionComponent = () => {
       <div id="searchbar" style={{ marginTop: "58px" }}>
         <TextField
           id="search"
-          label="Search by title or author"
+          placeholder="Search by title or author"
           onChange={(event) => setSearchTerm(event.target.value)}
           style={{ width: "658px" }}
           className={classes.searchField}

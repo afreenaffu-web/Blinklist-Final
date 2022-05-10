@@ -5,7 +5,8 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import BookDetailViewPage from "./components/Pages/BookDetailViewPage";
 import { Auth0Provider } from "@auth0/auth0-react";
-import { AuthApp } from "./AuthApp";
+import App from "./App";
+import Login from "./components/atoms/Auth0/Login";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -14,16 +15,18 @@ root.render(
   <Router>
     <Routes>
       <Route path="/explore" element={<BlinkPage />} />
-
+      <Route path="/home" element={<App />} />
       <Route
         path="/"
         element={
           <Auth0Provider
             domain="dev-t7uorqjf.us.auth0.com"
             clientId="z9RHu4Q5iMvflXI76MJ52KgbgWnLjNwG"
-            redirectUri={window.location.origin}
+            redirectUri="http://localhost:3000/home"
           >
-            <AuthApp />
+            <div style={{ paddingLeft: "700px", paddingTop: "350px" }}>
+              <Login />
+            </div>
           </Auth0Provider>
         }
       />

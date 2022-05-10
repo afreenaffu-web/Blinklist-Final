@@ -51,7 +51,7 @@ const ExploreByCategory: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Science"
               sx={{
@@ -61,7 +61,7 @@ const ExploreByCategory: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Economics"
               sx={{
@@ -71,7 +71,7 @@ const ExploreByCategory: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Corporate Culture"
               sx={{
@@ -81,7 +81,7 @@ const ExploreByCategory: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Psychology"
               sx={{
@@ -91,7 +91,7 @@ const ExploreByCategory: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Nature & Environment"
               sx={{

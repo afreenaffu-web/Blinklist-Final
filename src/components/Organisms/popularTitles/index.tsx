@@ -49,7 +49,7 @@ const PopularTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Personal Development"
               sx={{
@@ -59,7 +59,7 @@ const PopularTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Communication Skills"
               sx={{
@@ -69,7 +69,7 @@ const PopularTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Money & Investments"
               sx={{
@@ -79,7 +79,7 @@ const PopularTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Sex & Relationship"
               sx={{
@@ -89,7 +89,7 @@ const PopularTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Education"
               sx={{

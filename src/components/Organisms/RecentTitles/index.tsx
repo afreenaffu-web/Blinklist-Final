@@ -47,7 +47,7 @@ const RecentlyAddedTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Health & Nutrition"
               sx={{
@@ -57,7 +57,7 @@ const RecentlyAddedTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="History"
               sx={{
@@ -67,7 +67,7 @@ const RecentlyAddedTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Motivation & Inspiration"
               sx={{
@@ -77,7 +77,7 @@ const RecentlyAddedTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Productivity"
               sx={{
@@ -87,7 +87,7 @@ const RecentlyAddedTitles: React.FunctionComponent = () => {
             />
           </Grid>
 
-          <Grid item style={{ marginTop: "28px" }}>
+          <Grid item style={{ marginTop: "20px" }}>
             <Category
               categoryname="Career & success"
               sx={{
